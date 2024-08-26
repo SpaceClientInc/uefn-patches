@@ -1,29 +1,27 @@
-# UEFN PATCH 31.00 - Frontend
-FD8ACB7 74 EB  # Offset 1/2 - Frontend
-FD8E1B3 74 EB  # Offset 2/2 - Frontend
+# UEFN PATCH - Fix Prefabs/Galleries crashing
+1E86E14B 86E0100000 05D0B6C508  # Offset 1/2 - Fix Prefabs/Galleries crashing
+1E86E151 860C110000 05CAB6C508  # Offset 2/2 - Fix Prefabs/Galleries crashing
+D1400E9 E82201FEFF 9090909090  # Offset 1/1 - Fix Prefabs/Galleries crashing
 
-# UEFN PATCH 31.00 - Animation Fix
+# UEFN PATCH - The binding is from a different library
+FD8ACB7 74 EB  # Offset 1/2 - The binding is from a different library
+FD8E1B3 74 EB  # Offset 2/2 - The binding is from a different library
+
+# UEFN PATCH - Animation Fix
 B7138E3 74 EB  # Offset 1/1 - Animation Fix
 
-# UEFN PATCH 31.00 - Cannot modify cooked assets
+# UEFN PATCH - Cannot modify cooked assets
 1052A96A 32C0 9090  # Offset 1/2 - Cannot modify cooked assets
 1052A961 74 EB  # Offset 2/2 - Cannot modify cooked assets
 
-# UEFN PATCH 31.00 - Unable to edit cooked asset
+# UEFN PATCH - Unable to edit cooked asset
 A005238 32DB B301  # Offset 1/1 - Unable to edit cooked asset
 
-# UEFN PATCH 31.00 - Copy Objects
+# UEFN PATCH - Copy Objects
 9DA5B5E 0F84F2020000 909090909090  # Offset 1/1 - Copy Objects
 
-# UEFN PATCH 31.00 - Package is cooked or missing editor data
+# UEFN PATCH - Package is cooked or missing editor data
 9DA6145 74 EB  # Offset 1/1 - Package is cooked or missing editor data
 
-# UEFN PATCH 31.00 - Cannot modify generated classes
+# UEFN PATCH - Cannot modify generated classes
 1052A8DE 74 EB  # Offset 1/1 - Cannot modify generated classes
-
-# UEFN PATCH 31.00 - ARG PATCHES
-D1400E9 E82201FEFF 9090909090
-
-#UEFN PATCH 31.00 - UTILS
-1E86E14B 86E0100000 05D0B6C508
-1E86E151 860C110000 05CAB6C508
