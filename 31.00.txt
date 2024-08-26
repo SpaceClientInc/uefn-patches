@@ -20,3 +20,10 @@ A005238 32DB B301  # Offset 1/1 - Unable to edit cooked asset
 
 # UEFN PATCH 31.00 - Cannot modify generated classes
 1052A8DE 74 EB  # Offset 1/1 - Cannot modify generated classes
+
+# UEFN PATCH 31.00 - ARG PATCHES
+D1400E9 E82201FEFF 9090909090
+
+#UEFN PATCH 31.00 - UTILS
+1E86E14B 86E0100000 05D0B6C508
+1E86E151 860C110000 05CAB6C508
