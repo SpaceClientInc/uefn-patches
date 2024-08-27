@@ -1,0 +1,32 @@
+<patches>
+    <patch>
+        <offset>C4E735C</offset>
+        <original>75</original>
+        <replace>EB</replace>
+    </patch>
+    <patch>
+        <offset>ABBF943</offset>
+        <original>74</original>
+        <replace>75</replace>
+    </patch>
+    <patch>
+        <offset>162051E3</offset>
+        <original>32C0</original>
+        <replace>9090</replace>
+    </patch>
+    <patch>
+        <offset>95C3A55</offset>
+        <original>32DB</original>
+        <replace>B301</replace>
+    </patch>
+    <patch>
+        <offset>9352C78</offset>
+        <original>0F8552010000</original>
+        <replace>909090909090</replace>
+    </patch>
+    <patch>
+        <offset>935339D</offset>
+        <original>74</original>
+        <replace>EB</replace>
+    </patch>
+</patches>
