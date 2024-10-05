@@ -1,0 +1,107 @@
+<Patches>
+	<!-- UEFN PATCH 31.20 Frontend -->
+
+	<Patch>
+		<Name>The binding is from a different library</Name>
+		<Offset>
+			<Address>FE22D67</Address>
+			<OriginalBytes>74</OriginalBytes>
+			<NewBytes>EB</NewBytes>
+		</Offset>
+		<Offset>
+			<Address>FE26263</Address>
+			<OriginalBytes>74</OriginalBytes>
+			<NewBytes>EB</NewBytes>
+		</Offset>
+	</Patch>
+	<Patch>
+		<Name>Animation Fix</Name>
+		<Offset>
+			<Address>B76B723</Address>
+			<OriginalBytes>74</OriginalBytes>
+			<NewBytes>EB</NewBytes>
+		</Offset>
+	</Patch>
+	<Patch>
+		<Name>Launch Options</Name>
+		<Offset>
+			<Address>D19E9F9</Address>
+			<OriginalBytes>E8 32 00 FE FF</OriginalBytes>
+			<NewBytes>90 90 90 90 90</NewBytes>
+		</Offset>
+	</Patch>
+
+	<!-- UEFN PATCH 31.20 -->
+
+	<Patch>
+		<Name>Cannot modify cooked assets</Name>
+		<Offset>
+			<Address>105C217A</Address>
+			<OriginalBytes>32 C0</OriginalBytes>
+			<NewBytes>90 90</NewBytes>
+		</Offset>
+		<Offset>
+			<Address>105C2171</Address>
+			<OriginalBytes>74</OriginalBytes>
+			<NewBytes>EB</NewBytes>
+		</Offset>
+	</Patch>
+	<Patch>
+		<Name>Unable to edit cooked asset</Name>
+		<Offset>
+			<Address>A05CE78</Address>
+			<OriginalBytes>32 DB</OriginalBytes>
+			<NewBytes>B3 01</NewBytes>
+		</Offset>
+	</Patch>
+	<Patch>
+		<Name>Copy Objects</Name>
+		<Offset>
+			<Address>9DFD79F</Address>
+			<OriginalBytes>0F 85 18 01 00 00</OriginalBytes>
+			<NewBytes>90 90 90 90 90 90</NewBytes>
+		</Offset>
+	</Patch>
+	<Patch>
+		<Name>Package is cooked or missing editor data\n</Name>
+		<Offset>
+			<Address>9DFDDB5</Address>
+			<OriginalBytes>74</OriginalBytes>
+			<NewBytes>EB</NewBytes>
+		</Offset>
+	</Patch>
+	<Patches>
+		<Patch>
+			<Name>The requested operation could not be completed because the level is locked. (1/2)</Name>
+			<Offset>
+				<Address>77E4B8E</Address>
+				<OriginalBytes>0F 85 AD 02 00 00</OriginalBytes>
+				<NewBytes>90 90 90 90 90 90</NewBytes>
+			</Offset>
+		</Patch>
+		<Patch>
+			<Name>The requested operation could not be completed because the level is locked. (2/2)</Name>
+			<Offset>
+				<Address>94B5CF7</Address>
+				<OriginalBytes>0F 84 A4</OriginalBytes>
+				<NewBytes>E9 A5 00</NewBytes>
+			</Offset>
+		</Patch>
+		<Patch>
+			<Name>Fix Prefabs/Galleries crashing (1/2)</Name>
+			<Offset>
+				<Address>1EAB33AB</Address>
+				<OriginalBytes>86 E0 10 00 00</OriginalBytes>
+				<NewBytes>05 C0 AC C9 08</NewBytes>
+			</Offset>
+		</Patch>
+		<Patch>
+			<Name>Fix Prefabs/Galleries crashing (2/2)</Name>
+			<Offset>
+				<Address>1EAB33B1</Address>
+				<OriginalBytes>86 0C 11 00 00</OriginalBytes>
+				<NewBytes>05 BA AC C9 08</NewBytes>
+			</Offset>
+		</Patch>
+	</Patches>
+</Patches>
